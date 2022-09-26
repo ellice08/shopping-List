@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@500&family=Raleway:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@500&family=Calligraffitti&display=swap");
+body {
+  /* background-color: #f8f9fa; */
+  background: url(../javascript/pexels-ann-poan-5797912.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  line-height: 15px;
+  align-items: center;
+}
+.top {
+  line-height: 40px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+.base {
+  background-color: #e3fafc;
+  height: 350px;
+  width: 350px;
+  text-decoration: none;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.4);
+}
+.header {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#yoo {
+  background-color: #f8f9fa;
+}
+#userinput {
+  background-color: #f8f9fa;
+}
+#list {
+  line-height: 25px;
+}
+h1 {
+  color: #e3fafc;
+  text-shadow: 2px 2px black;
+}
+h4 {
+  color: black;
+
+  letter-spacing: 2px;
+  padding-top: 210px;
+}
+input::placeholder {
+  color: #e3fafc;
+  text-shadow: 1px 1px black;
+}
